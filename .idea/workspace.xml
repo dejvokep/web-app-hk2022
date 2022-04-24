@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0999ee1-8a20-44d3-9cc7-6134c448834e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/icons/arrow-right-circle-icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/icons/menu-icon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Background.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Background.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/GameItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GameItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/GameList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GameList.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/HowItWorksPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/HowItWorksPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/UserPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/UserPage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/UserSelectPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/UserSelectPage.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650700858264</updated>
       <workItem from="1650700862305" duration="50975000" />
-      <workItem from="1650778848189" duration="7566000" />
+      <workItem from="1650778848189" duration="8181000" />
     </task>
     <servers />
   </component>
