@@ -98,3 +98,7 @@ h2.subTitle {
 .legend svg {
     height: 15px;
 }
+
+.nothing {
+    text-align: center;
+}

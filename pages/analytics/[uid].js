@@ -79,7 +79,7 @@ export default function UserPage(props) {
                 </div>
                 <div className={styles.section}>
                     <h2 className={styles.subTitle}>Categories 📊</h2>
-                    <div className={styles.chart}>
+                    {props.categories && props.categories.length > 0 ? <div className={styles.chart}>
                         <div className={styles.piechart}>
                             <PieChart
                                 label={({dataEntry}) => `${Math.round(dataEntry.percentage)} %`} data={props.categories}
@@ -95,7 +95,7 @@ export default function UserPage(props) {
                                 })}
                             </div>
                         </div>
-                    </div>
+                    </div> : <p className={styles.nothing}>No purchases made.</p>}
                 </div>
             </div>
         </section>
