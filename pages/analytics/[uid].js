@@ -66,16 +66,15 @@ export default function UserPage(props) {
                 </div>
                 <div className={styles.section}>
                     <h2 className={styles.subTitle}>Purchased 🛒</h2>
-                    <div className={styles.selectBox}>
+                    {(props.categories && props.categories.length > 0) && <div className={styles.selectBox}>
                         <select className={styles.select} onChange={sort}>
                             <option value="name-1">Sort by name A-Z</option>
                             <option value="name-2">Sort by name Z-A</option>
                             <option value="time-1">Sort by time 0-1</option>
                             <option value="time-2">Sort by time 1-0</option>
                         </select>
-                    </div>
-
-                    <GameList games={purchases} getGame={getGame} getBadge={getBadge} purchased={true}/>
+                    </div>}
+                    {props.categories && props.categories.length > 0 ? <GameList games={purchases} getGame={getGame} getBadge={getBadge} purchased={true}/> : <p className={styles.nothing}>No purchases made.</p>}
                 </div>
                 <div className={styles.section}>
                     <h2 className={styles.subTitle}>Categories 📊</h2>
