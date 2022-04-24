@@ -11,6 +11,7 @@
     font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     font-size: 60px;
+    text-align: center;
     position: relative;
 }
 
@@ -21,7 +22,7 @@
 .button {
     display: inline-flex;
     background-color: white;
-    margin: 0 20px 0 0;
+    margin: 10px 20px 0 0;
     position: relative;
     padding: 0 20px;
     border: 1px solid purple;
@@ -64,4 +65,28 @@
 .buttons {
     display: grid;
     place-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .top {
+        padding: 0 5px;
+    }
+    .top h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .top h1 {
+        font-size: 30px;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .div2 {
+        display: grid;
+        place-items: center;
+    }
 }

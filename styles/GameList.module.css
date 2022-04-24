@@ -5,3 +5,9 @@
     list-style: none;
     max-width: 70%;
 }
+
+@media only screen and (max-width: 1100px) {
+    .list {
+        max-width: 100%;
+    }
+}

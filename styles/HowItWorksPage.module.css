@@ -4,7 +4,8 @@
     display: grid;
     place-items: center;
     height: 100vh;
-    padding: 0 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .top h1 {

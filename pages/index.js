@@ -13,7 +13,7 @@ export default function Home() {
         <div>
             <h1>Game recommendations, <span className={styles.purple}>unleashed</span><BlinkingDot /></h1>
             <div className={styles.buttons}>
-                <div>
+                <div className={styles.div2}>
                     <Link href="/how-it-works">
                         <div className={styles.button}>
                             <p>How it works</p>

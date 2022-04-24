@@ -8,15 +8,19 @@ export default function Layout(props) {
         <Head>
             <title>GamePick</title>
             <link rel="shortcut icon" href="/favicon.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <div style={{
             position: "fixed",
             top: 0,
-            height: "100vh",
-            width: "100vw",
+            left: 0,
             zIndex: -1,
+            height: "100vh",
+            width: "100%",
             backgroundImage: `url(${background.src})`,
-            backgroundSize: "cover"
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "center"
         }}></div>
         <Header />
         {props.children}
