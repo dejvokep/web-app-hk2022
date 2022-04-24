@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700&display=swap');
+
+.content {
+    position: relative;
+    padding: 10px 30px;
+    border: 2px solid grey;
+    border-radius: .375rem;
+    box-shadow: 5px 10px 20px grey;
+    margin: 35px 5px;
+    transition: .5s;
+    background: white;
+}
+
+.content:hover {
+    margin: 35px 0;
+    padding: 12px 30px;
+    box-shadow: 5px 10px 20px #555555;
+}
+
+.gameName {
+    display: inline-block;
+    margin: 0;
+    line-height: 56px;
+    font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.buttons {
+    float: right;
+}
+
+.button {
+    border: none;
+    background: none;
+    margin: 8px;
+    height: 40px;
+    width: 40px;
+}
+
+.button:hover svg {
+    stroke: purple;
+}
+
+.button svg {
+    height: 24px;
+    width: 24px;
+    transition: .3s;
+}
+
+.badge {
+    position: absolute;
+    top: -15px;
+    background: white;
+    border: 2px solid grey;
+    border-radius: .375rem;
+    font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.badge p {
+    color: purple;
+    text-transform: uppercase;
+    margin: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
