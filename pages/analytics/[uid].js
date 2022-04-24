@@ -5,6 +5,7 @@ import reactStringReplace from "react-string-replace";
 import {useRef, useState} from "react";
 import {PieChart} from "react-minimal-pie-chart";
 import TagIcon from "../../components/icons/tag-icon";
+import Head from "next/head";
 
 const GAME_BADGE_PHRASES = [
     ["top pick 🎀", "the best pick 🔔", "the best for you 🥇", "king of the hill 💎"],
@@ -50,6 +51,9 @@ export default function UserPage(props) {
 
     return (
         <section className={styles.page}>
+            <Head>
+                <title>GamePick - My Analytics</title>
+            </Head>
             <div>
                 <div className={styles.header}>
                     <h1>{reactStringReplace(props.welcomePhrase, "{name}", () => <span

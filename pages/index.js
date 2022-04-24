@@ -3,9 +3,13 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css"
 import InfoIcon from "../components/icons/info-icon";
 import BlinkingDot from "../components/home/blinking-dot";
+import Head from "next/head";
 
 export default function Home() {
     return <section className={styles.top}>
+        <Head>
+            <title>GamePick - Home</title>
+        </Head>
         <div>
             <h1>Game recommendations, <span className={styles.purple}>unleashed</span><BlinkingDot /></h1>
             <div className={styles.buttons}>

@@ -36,13 +36,13 @@ export async function getInfo(uid) {
 }
 
 export async function getRecommendations(uid) {
-    return (await fetch("https://game-pick-default-rtdb.firebaseio.com/recommendations.json?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid]
+    return (await fetch(process.env.FIREBASE_RECOMMENDATIONS + "?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid]
 }
 
 export async function getUserInfo(uid) {
-    return (await fetch("https://game-pick-default-rtdb.firebaseio.com/users.json?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid]
+    return (await fetch(process.env.FIREBASE_USERS + "?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid]
 }
 
 export async function getGameInfo(uid) {
-    return (await fetch("https://game-pick-default-rtdb.firebaseio.com/games.json?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid];
+    return (await fetch(process.env.FIREBASE_GAMES + "?orderBy=\"$key\"&equalTo=\"" + encodeURIComponent(uid) + "\"").then(response => response.json()))[uid];
 }
